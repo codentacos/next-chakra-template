@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.transaction-container {
+  height: 400px;
+  overflow: scroll;
+}
+
+
+.transaction-container::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+.transaction-container::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
